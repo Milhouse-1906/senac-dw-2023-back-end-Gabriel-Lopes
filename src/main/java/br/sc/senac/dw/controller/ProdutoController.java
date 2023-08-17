@@ -29,11 +29,8 @@ public class ProdutoController {
 		lista.add(p1);
 		lista.add(p2);
 		lista.add(p3);
-		lista.add(p3);
-		lista.add(p3);
-		lista.add(p3);
-		lista.add(p3);
-		lista.add(p3);
+		
+		
 		
 //		return lista;
 		

@@ -21,7 +21,6 @@ import lombok.Setter;
 //Anotação do JPA para associar a entidade a uma tabela do banco
 //Nome da tabela no banco, caso nada seja informado é considerado o nome da classe da entidade
 @Table(name = "produtos") 
-@NoArgsConstructor
 public class Produto {
 	
 	@Id
