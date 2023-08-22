@@ -35,7 +35,7 @@ public class ProdutoController {
 	@PostMapping
 	public Produto salvar(@RequestBody Produto novoProduto) 
 		throws CampoInvalidoException {
-		return  produtoService.salvar(novoProduto);
+		return  produtoService.inserir(novoProduto);
 		
 	}
 }

@@ -25,5 +25,8 @@ public class ProdutoService {
 	public Optional<Produto> consultarPorId(Long id){
 		return produtoRepositoryAntigoDAO.findById(id);
 	}
+	public Produto inserir(Produto novoProduto) {
+		return produtoRepositoryAntigoDAO.save(novoProduto);
+	}
 	
 }
